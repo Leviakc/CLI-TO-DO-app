@@ -1,14 +1,15 @@
 {
   "name": "cli-to-do-app",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Juan gomen",
+  "license": "IMT",
   "devDependencies": {
     "@total-typescript/ts-reset": "^0.4.2",
     "@types/inquirer": "^9.0.3",
@@ -16,9 +17,9 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "colors": "^1.4.0",
     "inquirer": "^9.1.5",
     "lowdb": "^5.1.0",
-    "nanoid": "^4.0.2",
     "yargs": "^17.7.1"
   }
 }

@@ -68,8 +68,8 @@ export const readInput = async (message: string) => {
     name: "title",
     message,
     validate(value) {
-      if (value.length === 0) {
-        return "Please enter a title task";
+      if (!value.length) {
+        return "Please enter a task";
       }
       return true;
     },

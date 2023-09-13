@@ -13,6 +13,9 @@ export class Tasks {
 
   listTasks() {
     console.log();
+    if (!this.taskLists.length)
+      return console.log("There are not tasks at the moment".red);
+
     this.taskLists.forEach((task, index) =>
       console.log(`${(index + 1 + ".").blue} ${task.title}`),
     );
